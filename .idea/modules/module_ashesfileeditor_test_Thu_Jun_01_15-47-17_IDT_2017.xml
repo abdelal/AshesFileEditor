@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_ashesfileeditor_test" default="compile.module.ashesfileeditor_test">
+  <dirname property="module.ashesfileeditor_test.basedir" file="${ant.file.module_ashesfileeditor_test}"/>
+  
+  <property name="module.jdk.home.ashesfileeditor_test" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.ashesfileeditor_test" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.ashesfileeditor_test" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.ashesfileeditor_test" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="ashesfileeditor_test.output.dir" value="undefined"/>
+  <property name="ashesfileeditor_test.testoutput.dir" value="${module.ashesfileeditor_test.basedir}/../../build/classes/test"/>
+  
+  <path id="ashesfileeditor_test.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="ashesfileeditor_test.module.production.classpath">
+    <path refid="${module.jdk.classpath.ashesfileeditor_test}"/>
+    <pathelement location="${ashesfileeditor_main.output.dir}"/>
+    <path refid="library.gradle:_com.gluonhq:particle:1.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.code.gson:gson:2.8.1.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_org.jsefa:jsefa:0.9.3.release.classpath"/>
+    <path refid="library.gradle:_javax.inject:javax.inject:1.classpath"/>
+    <path refid="library.gradle:_org.controlsfx:controlsfx:8.40.12.classpath"/>
+    <path refid="library.gradle:_eu.infomas:annotation-detector:3.0.4.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-core:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_xmlpull:xmlpull:1.1.2.1.classpath"/>
+  </path>
+  
+  <path id="ashesfileeditor_test.runtime.production.module.classpath">
+    <path refid="ashesfileeditor_main.runtime.production.module.classpath"/>
+    <path refid="library.gradle:_com.gluonhq:particle:1.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.code.gson:gson:2.8.1.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_org.jsefa:jsefa:0.9.3.release.classpath"/>
+    <path refid="library.gradle:_javax.inject:javax.inject:1.classpath"/>
+    <path refid="library.gradle:_org.controlsfx:controlsfx:8.40.12.classpath"/>
+    <path refid="library.gradle:_eu.infomas:annotation-detector:3.0.4.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-core:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_xmlpull:xmlpull:1.1.2.1.classpath"/>
+  </path>
+  
+  <path id="ashesfileeditor_test.module.classpath">
+    <path refid="${module.jdk.classpath.ashesfileeditor_test}"/>
+    <pathelement location="${ashesfileeditor_main.output.dir}"/>
+    <path refid="library.gradle:_com.gluonhq:particle:1.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.code.gson:gson:2.8.1.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_org.jsefa:jsefa:0.9.3.release.classpath"/>
+    <path refid="library.gradle:_javax.inject:javax.inject:1.classpath"/>
+    <path refid="library.gradle:_org.controlsfx:controlsfx:8.40.12.classpath"/>
+    <path refid="library.gradle:_eu.infomas:annotation-detector:3.0.4.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-core:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_xmlpull:xmlpull:1.1.2.1.classpath"/>
+  </path>
+  
+  <path id="ashesfileeditor_test.runtime.module.classpath">
+    <pathelement location="${ashesfileeditor_test.testoutput.dir}"/>
+    <path refid="ashesfileeditor_main.runtime.module.classpath"/>
+    <path refid="library.gradle:_com.gluonhq:particle:1.1.3.classpath"/>
+    <path refid="library.gradle:_com.google.code.gson:gson:2.8.1.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_org.jsefa:jsefa:0.9.3.release.classpath"/>
+    <path refid="library.gradle:_javax.inject:javax.inject:1.classpath"/>
+    <path refid="library.gradle:_org.controlsfx:controlsfx:8.40.12.classpath"/>
+    <path refid="library.gradle:_eu.infomas:annotation-detector:3.0.4.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_com.fasterxml.jackson.core:jackson-core:2.9.0.pr3.classpath"/>
+    <path refid="library.gradle:_xmlpull:xmlpull:1.1.2.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.ashesfileeditor_test">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.ashesfileeditor_test">
+    <patternset refid="excluded.from.module.ashesfileeditor_test"/>
+  </patternset>
+  
+  
+  <target name="compile.module.ashesfileeditor_test" depends="compile.module.ashesfileeditor_test.production,compile.module.ashesfileeditor_test.tests" description="Compile module AshesFileEditor_test"/>
+  
+  <target name="compile.module.ashesfileeditor_test.production" depends="register.custom.compilers,compile.module.ashesfileeditor_main" description="Compile module AshesFileEditor_test; production classes"/>
+  
+  <target name="compile.module.ashesfileeditor_test.tests" depends="register.custom.compilers,compile.module.ashesfileeditor_test.production" description="compile module AshesFileEditor_test; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.ashesfileeditor_test" description="cleanup module">
+    <delete dir="${ashesfileeditor_test.output.dir}"/>
+    <delete dir="${ashesfileeditor_test.testoutput.dir}"/>
+  </target>
+</project>

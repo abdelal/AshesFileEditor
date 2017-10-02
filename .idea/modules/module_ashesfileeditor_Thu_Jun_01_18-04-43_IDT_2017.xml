@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_ashesfileeditor" default="compile.module.ashesfileeditor">
+  <dirname property="module.ashesfileeditor.basedir" file="${ant.file.module_ashesfileeditor}"/>
+  
+  <property name="module.jdk.home.ashesfileeditor" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.ashesfileeditor" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.ashesfileeditor" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.ashesfileeditor" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="ashesfileeditor.output.dir" value="${module.ashesfileeditor.basedir}/../../out/production/AshesFileEditor"/>
+  <property name="ashesfileeditor.testoutput.dir" value="${module.ashesfileeditor.basedir}/../../out/test/AshesFileEditor"/>
+  
+  <path id="ashesfileeditor.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="ashesfileeditor.module.production.classpath">
+    <path refid="${module.jdk.classpath.ashesfileeditor}"/>
+  </path>
+  
+  <path id="ashesfileeditor.runtime.production.module.classpath">
+    <pathelement location="${ashesfileeditor.output.dir}"/>
+  </path>
+  
+  <path id="ashesfileeditor.module.classpath">
+    <path refid="${module.jdk.classpath.ashesfileeditor}"/>
+    <pathelement location="${ashesfileeditor.output.dir}"/>
+  </path>
+  
+  <path id="ashesfileeditor.runtime.module.classpath">
+    <pathelement location="${ashesfileeditor.testoutput.dir}"/>
+    <pathelement location="${ashesfileeditor.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.ashesfileeditor">
+    <patternset refid="ignored.files"/>
+    <exclude name="out/**"/>
+    <exclude name="out/artifacts/**"/>
+    <exclude name="out/artifacts/AshesFileEditor/**"/>
+    <exclude name="out/artifacts/AshesFileEditor_main/**"/>
+    <exclude name="out/production/**"/>
+    <exclude name="out/production/AshesFileEditor/**"/>
+    <exclude name="out/production/AshesFileEditor/src/**"/>
+    <exclude name="out/production/AshesFileEditor/src/main/**"/>
+    <exclude name="out/production/AshesFileEditor/src/main/resources/**"/>
+    <exclude name="out/production/AshesFileEditor/src/main/resources/bundles/**"/>
+    <exclude name="out/production/AshesFileEditor/src/main/resources/AshesEditor/**"/>
+    <exclude name="out/production/AshesFileEditor/src/main/resources/AshesEditor/views/**"/>
+    <exclude name="out/production/AshesFileEditor/src/.idea/**"/>
+    <exclude name="out/production/AshesFileEditor/.idea/**"/>
+    <exclude name="out/production/AshesFileEditor/.idea/modules/**"/>
+    <exclude name="out/production/AshesFileEditor/.idea/artifacts/**"/>
+    <exclude name="out/production/AshesFileEditor/.idea/libraries/**"/>
+    <exclude name="out/production/AshesFileEditor/config/**"/>
+    <exclude name="out/production/AshesFileEditor/gradle/**"/>
+    <exclude name="out/production/AshesFileEditor/gradle/.idea/**"/>
+    <exclude name="out/production/AshesFileEditor/gradle/wrapper/**"/>
+    <exclude name="out/production/AshesFileEditor/.gradle/**"/>
+    <exclude name="out/production/AshesFileEditor/.gradle/2.14.1/**"/>
+    <exclude name="out/production/AshesFileEditor/.gradle/2.14.1/taskArtifacts/**"/>
+    <exclude name="out/production/AshesFileEditor/META-INF/**"/>
+    <exclude name="src/main/**"/>
+    <exclude name="src/main/java/**"/>
+    <exclude name="src/main/java/AshesEditor/**"/>
+    <exclude name="src/main/java/AshesEditor/utils/**"/>
+    <exclude name="src/main/java/AshesEditor/views/**"/>
+    <exclude name="src/main/java/AshesEditor/actions/**"/>
+    <exclude name="src/main/java/AshesEditor/Objects/**"/>
+    <exclude name="src/main/java/AshesEditor/controllers/**"/>
+    <exclude name="src/main/resources/**"/>
+    <exclude name="src/main/resources/bundles/**"/>
+    <exclude name="src/main/resources/AshesEditor/**"/>
+    <exclude name="src/main/resources/AshesEditor/views/**"/>
+    <exclude name="build/**"/>
+    <exclude name="build/classes/**"/>
+    <exclude name="build/classes/main/**"/>
+    <exclude name="build/classes/main/bundles/**"/>
+    <exclude name="build/classes/main/AshesEditor/**"/>
+    <exclude name="build/classes/main/AshesEditor/utils/**"/>
+    <exclude name="build/classes/main/AshesEditor/views/**"/>
+    <exclude name="build/classes/main/AshesEditor/actions/**"/>
+    <exclude name="build/classes/main/AshesEditor/Objects/**"/>
+    <exclude name="build/classes/main/AshesEditor/controllers/**"/>
+    <exclude name=".gradle/**"/>
+    <exclude name=".gradle/2.14.1/**"/>
+    <exclude name=".gradle/2.14.1/taskArtifacts/**"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.ashesfileeditor">
+    <patternset refid="excluded.from.module.ashesfileeditor"/>
+  </patternset>
+  
+  <path id="ashesfileeditor.module.sourcepath">
+    <dirset dir="${module.ashesfileeditor.basedir}/../../../../Javas">
+      <include name="AshesFileEditor"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.ashesfileeditor" depends="compile.module.ashesfileeditor.production,compile.module.ashesfileeditor.tests" description="Compile module AshesFileEditor"/>
+  
+  <target name="compile.module.ashesfileeditor.production" depends="register.custom.compilers" description="Compile module AshesFileEditor; production classes">
+    <mkdir dir="${ashesfileeditor.output.dir}"/>
+    <javac2 destdir="${ashesfileeditor.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.ashesfileeditor}/javac">
+      <compilerarg line="${compiler.args.ashesfileeditor}"/>
+      <bootclasspath refid="ashesfileeditor.module.bootclasspath"/>
+      <classpath refid="ashesfileeditor.module.production.classpath"/>
+      <src refid="ashesfileeditor.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.ashesfileeditor"/>
+    </javac2>
+    
+    <copy todir="${ashesfileeditor.output.dir}">
+      <fileset dir="${module.ashesfileeditor.basedir}/../../../AshesFileEditor">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.ashesfileeditor.tests" depends="register.custom.compilers,compile.module.ashesfileeditor.production" description="compile module AshesFileEditor; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.ashesfileeditor" description="cleanup module">
+    <delete dir="${ashesfileeditor.output.dir}"/>
+    <delete dir="${ashesfileeditor.testoutput.dir}"/>
+  </target>
+</project>

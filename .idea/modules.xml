@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AshesFileEditor.iml" filepath="$PROJECT_DIR$/.idea/modules/AshesFileEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AshesFileEditor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_main.iml" group="AshesFileEditor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AshesFileEditor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_test.iml" group="AshesFileEditor" />
+    </modules>
+  </component>
+</project>

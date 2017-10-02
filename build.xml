@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ashesfileeditor" default="all">
+  
+  
+  <property file="build.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.egg"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+    <include name="*.swc"/>
+    <include name="*.war"/>
+    <include name="*.ane"/>
+    <include name="*.zip"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="lib/jfoenix.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.gradle:_com.airhacks:afterburner.fx:1.7.0.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.airhacks/afterburner.fx/1.7.0/c726ffe8a4d9825b02a22653f8672612a008df25/afterburner.fx-1.7.0.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0.pr3/dede10be4aaaa6893561372dc5196644268997b7/jackson-annotations-2.9.0.pr3.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.fasterxml.jackson.core:jackson-core:2.9.0.pr3.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.0.pr3/f9c6d5cfde33c589596d1f43200ec052a2c7c9c0/jackson-core-2.9.0.pr3.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.0.pr3/41a8d484e0fe00102724d03090503ad212ee3c20/jackson-databind-2.9.0.pr3.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/2.9.0.pr3/83a334fd5bc02a67d1f6e5b1b770bcdc4cab6e02/jackson-dataformat-csv-2.9.0.pr3.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.google.code.gson:gson:2.8.1.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar"/>
+  </path>
+  
+  <path id="library.gradle:_com.jfoenix:jfoenix:1.4.0.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/com.jfoenix/jfoenix/1.4.0/9d81a47feb301f88655480c2cb0b2d35da9685cf/jfoenix-1.4.0.jar"/>
+  </path>
+  
+  <path id="library.gradle:_org.jogamp.jogl:jogl:2.3.2.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl/2.3.2/99e731771477fe0e142a65d77f9398b83755ec07/jogl-2.3.2.jar"/>
+  </path>
+  
+  <path id="library.gradle:_org.jsefa:jsefa:0.9.3.release.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/org.jsefa/jsefa/0.9.3.RELEASE/3bf9a421689a4d30d66ca9704e1850162f4676fd/jsefa-0.9.3.RELEASE.jar"/>
+  </path>
+  
+  <path id="library.gradle:_org.kordamp.bootstrapfx:bootstrapfx-core:0.2.1.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/org.kordamp.bootstrapfx/bootstrapfx-core/0.2.1/73932068858d8335f1535c169a4794bc8efd9071/bootstrapfx-core-0.2.1.jar"/>
+  </path>
+  
+  <path id="library.gradle:_xmlpull:xmlpull:1.1.2.1.classpath">
+    <pathelement location="C:/Users/Aki/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.2.1/10da33ecb4c8442cef15cf485f58ec1c8039b36c/xmlpull-1.1.2.1.jar"/>
+  </path>
+  
+  
+  <!-- Global Libraries -->
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/.idea/modules/module_ashesfileeditor.xml"/>
+  
+  <import file="${basedir}/.idea/modules/module_ashesfileeditor_main.xml"/>
+  
+  <import file="${basedir}/.idea/modules/module_ashesfileeditor_test.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.ashesfileeditor, clean.module.ashesfileeditor_main, clean.module.ashesfileeditor_test, clean.artifact.ashesfileeditor" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.ashesfileeditor, compile.module.ashesfileeditor_main, compile.module.ashesfileeditor_test" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.ashesfileeditor" value="${basedir}/out/artifacts/AshesFileEditor"/>
+    <property name="artifact.output.javafx" value="${basedir}/out/artifacts/Javafx"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="artifact.temp.output.AshesFileEditor" value="${artifacts.temp.dir}/AshesFileEditor.jar"/>
+    <property name="temp.jar.path.Javafx.jar" value="${artifacts.temp.dir}/Javafx.jar"/>
+    <taskdef resource="com/sun/javafx/tools/ant/antlib.xml" uri="javafx:com.sun.javafx.tools.ant" classpath="${jdk.home.1.8}/lib/ant-javafx.jar"/>
+  </target>
+  
+  <target name="clean.artifact.ashesfileeditor" description="clean AshesFileEditor artifact output">
+    <delete dir="${artifact.output.ashesfileeditor}"/>
+  </target>
+  
+  <target name="artifact.ashesfileeditor" depends="init.artifacts, compile.module.ashesfileeditor" description="Build &#39;AshesFileEditor&#39; artifact" xmlns:fx="javafx:com.sun.javafx.tools.ant">
+    <mkdir dir="${artifact.output.ashesfileeditor}"/>
+    <copy todir="${artifact.temp.output.AshesFileEditor}">
+      <fileset dir="${ashesfileeditor.output.dir}"/>
+    </copy>
+    <mkdir dir="${artifact.temp.output.AshesFileEditor}/META-INF"/>
+    <copy file="${basedir}/src/main/META-INF/MANIFEST.MF" tofile="${artifact.temp.output.AshesFileEditor}/META-INF/MANIFEST.MF"/>
+    <fx:fileset id="all_but_AshesFileEditor" dir="${artifact.temp.output.AshesFileEditor}" includes="**/*.jar">
+      <exclude name="AshesFileEditor.jar"/>
+    </fx:fileset>
+    <fx:fileset id="all_AshesFileEditor" dir="${artifact.temp.output.AshesFileEditor}" includes="**/*.jar"/>
+    <fx:application id="AshesFileEditor_id" name="AshesFileEditor" mainClass="AshesEditor.Main"/>
+    <fx:jar destfile="${artifact.temp.output.AshesFileEditor}/AshesFileEditor.jar">
+      <fx:application refid="AshesFileEditor_id"/>
+      <fileset dir="${artifact.temp.output.AshesFileEditor}" excludes="**/*.jar"/>
+      <fx:resources>
+        <fx:fileset refid="all_but_AshesFileEditor"/>
+      </fx:resources>
+      <manifest>
+        <attribute name="Implementation-Title" value=""/>
+        <attribute name="Implementation-Version" value=""/>
+        <attribute name="Implementation-Vendor" value=""/>
+      </manifest>
+    </fx:jar>
+    <fx:deploy width="600" height="400" updatemode="background" outdir="${artifact.temp.output.AshesFileEditor}/deploy" outfile="AshesFileEditor">
+      <fx:application refid="AshesFileEditor_id"/>
+      <fx:resources>
+        <fx:fileset refid="all_AshesFileEditor"/>
+      </fx:resources>
+    </fx:deploy>
+    <copy todir="${artifact.output.ashesfileeditor}">
+      <fileset dir="${artifact.temp.output.AshesFileEditor}/deploy"/>
+    </copy>
+    <delete includeemptydirs="true">
+      <fileset dir="${artifact.temp.output.AshesFileEditor}"/>
+    </delete>
+  </target>
+  
+  <target name="artifact.javafx" depends="init.artifacts, artifact.ashesfileeditor" description="Build &#39;Javafx&#39; artifact">
+    <property name="artifact.temp.output.javafx" value="${artifacts.temp.dir}/Javafx"/>
+    <mkdir dir="${artifact.temp.output.javafx}"/>
+    <jar destfile="${temp.jar.path.Javafx.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${artifact.output.ashesfileeditor}"/>
+      <zipfileset file="${basedir}/src/main/META-INF/MANIFEST.MF" prefix="META-INF"/>
+    </jar>
+    <copy file="${temp.jar.path.Javafx.jar}" tofile="${artifact.temp.output.javafx}/Javafx.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.ashesfileeditor, artifact.javafx" description="Build all artifacts">
+    <mkdir dir="${artifact.output.javafx}"/>
+    <copy todir="${artifact.output.javafx}">
+      <fileset dir="${artifact.temp.output.javafx}"/>
+    </copy>
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>

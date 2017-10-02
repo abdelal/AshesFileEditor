@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="1339.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AshesEditor.views.buildtab.BuildtabPresenter">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="4.0" prefHeight="655.0" prefWidth="196.0">
+         <children>
+            <JFXListView fx:id="buildinglist" layoutX="-4.0" layoutY="38.0" prefHeight="700.0" prefWidth="317.0" />
+            <JFXCheckBox layoutY="10.0" prefHeight="17.0" prefWidth="68.0" text="PHC" />
+            <JFXCheckBox layoutX="74.0" layoutY="10.0" text="Substrate" />
+            <TextField fx:id="searchtf" layoutX="179.0" layoutY="6.0" prefHeight="25.0" prefWidth="119.0" />
+         </children>
+      </AnchorPane>
+      <JFXTabPane layoutX="323.0" layoutY="50.0" prefHeight="700.0" prefWidth="1026.0">
+         <tabs>
+            <Tab text="Details">
+               <content>
+                  <AnchorPane fx:id="details" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1016.0" />
+               </content>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>

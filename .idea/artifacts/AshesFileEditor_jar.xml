@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AshesFileEditor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AshesFileEditor_jar</output-path>
+    <root id="archive" name="AshesFileEditor.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="AshesFileEditor_main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsefa/jsefa/0.9.3.RELEASE/3bf9a421689a4d30d66ca9704e1850162f4676fd/jsefa-0.9.3.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kordamp.bootstrapfx/bootstrapfx-core/0.2.1/73932068858d8335f1535c169a4794bc8efd9071/bootstrapfx-core-0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jfoenix/jfoenix/1.4.0/9d81a47feb301f88655480c2cb0b2d35da9685cf/jfoenix-1.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.0.pr3/f9c6d5cfde33c589596d1f43200ec052a2c7c9c0/jackson-core-2.9.0.pr3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl/2.3.2/99e731771477fe0e142a65d77f9398b83755ec07/jogl-2.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.0.pr3/41a8d484e0fe00102724d03090503ad212ee3c20/jackson-databind-2.9.0.pr3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/2.9.0.pr3/83a334fd5bc02a67d1f6e5b1b770bcdc4cab6e02/jackson-dataformat-csv-2.9.0.pr3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0.pr3/dede10be4aaaa6893561372dc5196644268997b7/jackson-annotations-2.9.0.pr3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.2.1/10da33ecb4c8442cef15cf485f58ec1c8039b36c/xmlpull-1.1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airhacks/afterburner.fx/1.7.0/c726ffe8a4d9825b02a22653f8672612a008df25/afterburner.fx-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

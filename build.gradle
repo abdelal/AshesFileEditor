@@ -1,0 +1,51 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'eu.appsatori:gradle-fatjar-plugin:0.3'
+    }
+}
+
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'AshesEditor.Main'
+    }
+}
+
+
+sourceSets.main.resources.srcDirs("src/main/java").includes.addAll(["**/*.fxml", "**/*.css", "**/*.properties"])
+sourceSets.main.resources.srcDirs("src/main/resources").includes.addAll(["**/*.*"])
+mainClassName = 'AshesEditor.Main'
+
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3'
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.0.pr3'
+    compile 'org.jsefa:jsefa:0.9.3.RELEASE'
+    compile 'com.jfoenix:jfoenix:1.4.0'
+    compile 'com.airhacks:afterburner.fx:1.7.0'
+    compile 'org.kordamp.bootstrapfx:bootstrapfx-core:0.2.1'
+    compile 'org.jogamp.jogl:jogl:2.3.2'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.google.guava:guava:22.0'
+    compile 'org.controlsfx:controlsfx:8.40.12'
+}
+
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}

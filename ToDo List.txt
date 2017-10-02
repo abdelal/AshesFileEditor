@@ -1,0 +1,15 @@
+1  write the data to a file 
+
+2  do the buildings gui and logic 
+
+3 optimize where i can .ie search in map instead of a list 
+
+4 orgnize the gui more , its messy atm 
+
+5 close probarly 
+
+6 give the option to save the files in documents 
+
+7 change the look of the listcells
+
+8 watever comes in my mind later
