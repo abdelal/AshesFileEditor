@@ -25,7 +25,7 @@ public class UnitListViewCell extends ListCell<Unit> {
     @FXML
     private Label unitname=new Label();
 
-    Parser parser=Parser.getInstance();
+    private Parser parser=Parser.getInstance();
 
     private FXMLLoader mLLoader;
     private boolean loaded=false;

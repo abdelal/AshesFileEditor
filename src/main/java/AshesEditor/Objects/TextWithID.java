@@ -1,12 +1,16 @@
 
 package AshesEditor.Objects;
 
-import javax.annotation.Generated;
 import com.google.gson.annotations.SerializedName;
+
+import javax.annotation.Generated;
 
 @Generated("net.hexar.json2pojo")
 @SuppressWarnings("unused")
+
 public class TextWithID {
+
+
 
     @SerializedName("Key")
     private String mKey;
@@ -19,6 +23,7 @@ public class TextWithID {
 
     public void setKey(String Key) {
         mKey = Key;
+
     }
 
     public String getTranslatedString() {

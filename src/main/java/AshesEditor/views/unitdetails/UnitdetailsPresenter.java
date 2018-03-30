@@ -130,12 +130,12 @@ public class UnitdetailsPresenter implements Initializable {
 
 
     @FXML
-    Unit unit;
-    OutPutWriter fileWriter=OutPutWriter.getInstance();
+    private Unit unit;
+    private OutPutWriter fileWriter=OutPutWriter.getInstance();
 
 
 
-    Parser parser=Parser.getInstance();
+    private Parser parser=Parser.getInstance();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -346,7 +346,6 @@ public void loadUnit(Unit unit){
 
     this.unit=unit;
     if (unit!=null){
-    BufferedImage[]  geticn = parser.geticn();
     internailID.setText(unit.getInternalID());
     name.setText(unit.getName());
     aicon.setText(unit.getArmyIconIndex());

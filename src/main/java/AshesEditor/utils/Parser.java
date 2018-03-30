@@ -30,20 +30,21 @@ public class Parser {
    // FileWriter fileWriter=FileWriter.getInstance();
 
 
-      String PATH="D:\\Games\\Steam\\steamapps\\common\\Ashes of the Singularity Escalation";
-      String UnitPATH= "\\Assets\\GameCore\\UnitTemplates.csv";
-      String UnitTextPATH= "\\Assets\\UIText\\UnitText.csv";
-      String DDSPATH=PATH+"\\Assets\\UI\\Art\\New HUD\\MetaUnit_Icons_42x27.dds";
-      String DDSPATHOther=PATH+"\\Assets\\UI\\Art\\New HUD\\";
-      String BuildingPATH="\\Assets\\GameCore\\BuildingTemplates.csv";
+      private String PATH="F:\\Games\\Steam\\steamapps\\common\\Ashes of the Singularity Escalation";
+      private String UnitPATH= "\\Assets\\GameCore\\UnitTemplates.csv";
+      private String UnitTextPATH= "\\Assets\\UIText\\UnitText.csv";
+      private String DDSPATH=PATH+"\\Assets\\UI\\Art\\New HUD\\MetaUnit_Icons_42x27.dds";
+      private String DDSPATH2=PATH+"\\Assets\\UI\\Art\\New HUD\\Build_Menu_Icons_70x44.dds";
+      private String DDSPATH3=PATH+"\\Assets\\UI\\Art\\New HUD\\Build_Menu_Icons_41x46   A.dds";
+      private String DDSPATHOther=PATH+"\\Assets\\UI\\Art\\New HUD\\";
+      private String BuildingPATH="\\Assets\\GameCore\\BuildingTemplates.csv";
+    boolean iconsloaded=false;
 
-    boolean made =false;
 
-    Map<String,String> unitsText;
+   private Map<String,String> unitsText;
     Parser parser=null;
-
-   //  BufferedImage bigImg= getbufferedImage(DDSPATH);
-       BufferedImage[] icons;
+   private BufferedImage[] sprites;
+   private    BufferedImage[] icons;
    static Gson gson=new Gson();
     private static Parser ourInstance = new Parser();
 
@@ -82,33 +83,37 @@ public class Parser {
        return text;
    }
 
-    public  BufferedImage geticn(int index){
-        if (icons==null)
-            geticn();
-
-        return icons[index];
-
-    }
-
 
     public  BufferedImage[] geticn(){
-        BufferedImage bigImg2= getbufferedImage(DDSPATHOther+"Build_Menu_Icons_41x46   A.dds");
-        final int width = 70;
-        final int height = 44;
-        final int rows = 59;
-        final int cols = 2;
-        BufferedImage[] sprites  =new BufferedImage[rows*cols];
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                sprites[(i * cols) + j] = bigImg2.getSubimage(
-                        j * width,
-                        i * height,
-                        width,
-                        height
-                ); } }
-        icons=sprites;
+       //BufferedImage bigImg2= getbufferedImage(DDSPATHOther+"Build_Menu_Icons_41x46   A.dds");
+        if(!iconsloaded) {
+            iconsloaded=true;
+            BufferedImage bigImg2 = getbufferedImage(DDSPATH2);
+              final int width = 70;
+            final int height = 44;
+            final int rows = 59;
+            final int cols = 2;
+            System.out.println(bigImg2.getHeight() / 44);
+            sprites = new BufferedImage[rows * cols];
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    sprites[(i * cols) + j] = bigImg2.getSubimage(
+                            j * width,
+                            i * height,
+                            width,
+                            height
+                    );
+                }
+            }
+            icons = sprites;
+            return sprites;
+        }
         return sprites;
   }
+
+
+
+
 
     private void writetoFile() {
         try{
@@ -316,7 +321,7 @@ return null;
         update();
     }
     private void update() {
-        geticn();
+       // geticn();
     }
     public String GetGamePath(){
         return PATH;

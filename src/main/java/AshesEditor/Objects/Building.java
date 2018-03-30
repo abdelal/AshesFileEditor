@@ -3,16 +3,20 @@ package AshesEditor.Objects;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import lombok.extern.java.Log;
 
+@Log
 public class Building {
 
     @SerializedName("Name")
     @Expose
     private String name;
 
+
     @Override
     public String toString() {
-        return "Building{" +
+
+             return "Building{" +
                 "name='" + name + '\'' +
                 ", name1='" + name1 + '\'' +
                 ", iconName='" + iconName + '\'' +

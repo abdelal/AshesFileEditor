@@ -25,16 +25,13 @@ public class BuildtabPresenter implements Initializable {
     private TextField searchtf;
 
 
-    ObservableList<Building> buldingObserableList;
-    Parser parser= Parser.getInstance();
+    private ObservableList<Building> buldingObserableList;
+    private Parser parser= Parser.getInstance();
 
 
     public void LoadElements(){
         buldingObserableList =parser.ReadBuildings();
 
-        for (int i = 0; i < buldingObserableList.size(); i++) {
-            System.out.println(buldingObserableList.get(i));
-        }
 
         buildinglist.setItems(buldingObserableList);
         buildinglist.setCellFactory(studentListView -> new BuildingListViewCell());

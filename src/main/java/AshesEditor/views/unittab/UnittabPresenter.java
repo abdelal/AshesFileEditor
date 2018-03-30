@@ -15,7 +15,6 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
@@ -27,10 +26,10 @@ import java.util.*;
 public class UnittabPresenter implements Initializable {
 
     @FXML
-    AnchorPane details;
+    private AnchorPane details;
 
     @FXML
-    JFXListView<Unit> unitslist;
+    private JFXListView<Unit> unitslist;
 
     @FXML
     private JFXCheckBox phcCheck;
@@ -41,12 +40,12 @@ public class UnittabPresenter implements Initializable {
     @FXML
     private TextField searchtf;
 
-    ArrayListMultimap multMap= ArrayListMultimap.create();
-    @FXML
-    JFXButton saveButton;
+    private ArrayListMultimap multMap= ArrayListMultimap.create();
+  @FXML
+    private JFXButton saveButton;
 
 
-    Map<String,String> unitsText=new HashMap<>();
+    private Map<String,String> unitsText=new HashMap<>();
 
 
     ObservableList<Unit> dispalyList=FXCollections.observableList(new LinkedList<>());
@@ -86,17 +85,11 @@ public class UnittabPresenter implements Initializable {
             //searching using a multimap
            Thread thread=new Thread(() -> {
                 if(!newValue.isEmpty()) {
-                    System.out.println("text");
-                    List list = multMap.get(newValue.toLowerCase());
+                        List list = multMap.get(newValue.toLowerCase());
                     dispalyList.setAll(list);
-                    for (int i = 0; i < list.size(); i++) {
-                        System.out.println(list.get(i).toString());
-                    }
-                    System.out.println("if");
                     unitslist.setItems(dispalyList);
                 }
                 else {
-                    System.out.println("else");
                     unitslist.setItems(unitObserableList);
                  }
 
@@ -109,33 +102,10 @@ public class UnittabPresenter implements Initializable {
 
 
 
-    private void searchwithenter() {
-        searchtf.setOnKeyPressed((KeyEvent e)->{
-        switch (e.getCode())
-        {
-        case ENTER:
-            String newValue=searchtf.getText().toLowerCase();
-            Thread thread=new Thread(() -> {
-                if(newValue.isEmpty()) {
-
-                    System.out.println("fffffffffffffffffffffffffffff");
-                    dispalyList.setAll(unitObserableList);
-                }
-                else{
-                    System.out.println("vakdsadsa");
-                    List list = multMap.get(newValue);
-                    dispalyList.setAll(list);}
-                       });
-                thread.run();
-
-
-        }});
-    }
 
     public void loadelements(){
 
             unitObserableList = parser.ReadUnits();
-            //  dispalyList.setAll(unitObserableList);
                multMap= GeneralFunctions.generateMap(unitObserableList);
                 unitslist.setItems(unitObserableList);
                 unitslist.setCellFactory(studentListView -> new UnitListViewCell());

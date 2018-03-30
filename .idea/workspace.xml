@@ -6,8 +6,117 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1bd2ec-db6b-4a4b-90af-f68a19907202" name="Default" comment="faster search , changed the file the icons are loaded from">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" afterDir="false" />
+    <list default="true" id="9d1bd2ec-db6b-4a4b-90af-f68a19907202" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/HasName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/DashboardPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/DashboardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/dashboard.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/light/LightPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/light/LightView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/light/light.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DDS/DDSImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DDS/DDSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DDS/FloatColour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DDS/NavigableImagePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DS/MultiMapCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/GeneralFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/OutPutWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/csv2json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml.backup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/unitdetails.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/unittab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AshesFileEditor_jar/AshesFileEditor.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/dashboard/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/dashboard/dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/dashboard/dashboard.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/dashboard/light/light.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/mainboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/unitdetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/unittab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/BuildingTab/buildtab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/mainboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/mainboard/mainboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/mainboard/mainboard.fxml.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/unitdetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/unitdetails/unitdetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/unittab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/AshesEditor/views/unittab/unittab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/MetaUnit_Icons_42x27.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/bundles/secondary.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/mainboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/unitdetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/unittab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/views/buildinglistcell.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/views/listitem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AshesFileEditor/views/unitlistcell.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/Objects/Building.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/Objects/HasName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/Objects/TextWithID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/Objects/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/dashboard/DashboardPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/dashboard/DashboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/dashboard/Tower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/dashboard/light/LightPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/dashboard/light/LightView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSImage$Header.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSImage$ImageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSUtils$DXTBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSUtils$PixelTransform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/DDSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/FloatColour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$ButtonZoomDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$Coords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$WheelZoomDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel$ZoomDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DDS/NavigableImagePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/DS/MultiMapCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/GeneralFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/OutPutWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/ParserBackup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/utils/csv2json.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/buildtab/BuildtabPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/buildtab/BuildtabView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/listCells/BuildingListViewCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/listCells/UnitListViewCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/mainboard/MainboardPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/mainboard/MainboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unitdetails/UnitdetailsPresenter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unitdetails/UnitdetailsPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unitdetails/UnitdetailsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unittab/UnittabPresenter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unittab/UnittabPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AshesEditor/views/unittab/UnittabView.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" afterDir="false" />
@@ -195,7 +304,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -224,8 +333,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="541">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#writetoFile#0;class#Parser#0" />
@@ -1616,12 +1725,20 @@
       <workItem from="1521454680236" duration="21000" />
       <workItem from="1521484868857" duration="259000" />
       <workItem from="1522393125729" duration="270000" />
-      <workItem from="1522394134297" duration="3228000" />
+      <workItem from="1522394134297" duration="3855000" />
     </task>
+    <task id="LOCAL-00001" summary="faster search , changed the file the icons are loaded from">
+      <created>1522399371118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522399371118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202348000" />
+    <option name="totallyTimeSpent" value="202975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1638,7 +1755,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.6204691" side_tool="true" weight="0.17056856" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.62100214" side_tool="true" visible="true" weight="0.18435754" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1651,12 +1768,12 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43816632" weight="0.27759197" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4914712" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.42110875" visible="true" weight="0.3094972" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.42110875" weight="0.3094972" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" content_ui="combo" id="Run" order="2" sideWeight="0.3795309" weight="0.18435754" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Run" order="2" sideWeight="0.37899786" visible="true" weight="0.18435754" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.47867805" weight="0.32887402" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49415204" visible="true" weight="0.20149253" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48081023" weight="0.3094972" />
@@ -1696,7 +1813,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java</url>
-          <line>170</line>
+          <line>169</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
@@ -2024,7 +2141,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -2037,8 +2154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="541">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#writetoFile#0;class#Parser#0" />

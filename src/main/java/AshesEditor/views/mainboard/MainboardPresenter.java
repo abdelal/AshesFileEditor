@@ -23,48 +23,46 @@ import java.util.ResourceBundle;
 public class MainboardPresenter implements Initializable {
 
     @FXML
-    AnchorPane unittab;
+   private  AnchorPane unittab;
 
     @FXML
-    AnchorPane buildingstab;
+   private AnchorPane buildingstab;
 
     @FXML
-    Button button1;
+   private Button button1;
 
     @FXML
-    MenuItem gathPath;
+    private  MenuItem gathPath;
 
-    UnittabView unitview;
-    BuildtabView buildingview;
-    Parser parser=Parser.getInstance();
-
-    @FXML
-    TextField gamePathtv;
+    private UnittabView unitview;
+   private BuildtabView buildingview;
+   private Parser parser=Parser.getInstance();
 
     @FXML
-    TextField saveDir;
+    private  TextField gamePathtv;
+
     @FXML
-    JFXButton loadButton;
+    private  TextField saveDir;
+    @FXML
+    private JFXButton loadButton;
 
 
 
-    ObservableList<Unit> unitList ;
-    OutPutWriter writer=OutPutWriter.getInstance();
+    private ObservableList<Unit> unitList ;
+    private OutPutWriter writer=OutPutWriter.getInstance();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         unitview = new UnittabView();
         unitview.getViewAsync(unittab.getChildren()::add);
         gamePathtv.setText(parser.GetGamePath());
-         saveDir.setText(writer.GETOutPutPath());
+        saveDir.setText(writer.GETOutPutPath());
         buildingview = new BuildtabView();
-        if(buildingview==null)
-            System.out.println("something is wrong");
         buildingview.getViewAsync(buildingstab.getChildren()::add);
 
 
-
     }
+
 
     @FXML
     void Test(){
@@ -112,3 +110,6 @@ public class MainboardPresenter implements Initializable {
     }
 
 }
+
+
+

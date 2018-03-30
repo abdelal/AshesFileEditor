@@ -6,11 +6,14 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
+import lombok.extern.java.Log;
 
+@Log
 public class Unit implements HasName {
 
     @Override
     public String toString() {
+        //log.warning(name);
         return "Unit{" +
                 "internalID='" + internalID + '\'' +
                 ", name='" + name + '\'' +

@@ -29,7 +29,7 @@ public class BuildingListViewCell extends ListCell<Building> {
     @FXML
     private Label buildingname=new Label();
 
-    Parser parser=Parser.getInstance();
+    private Parser parser=Parser.getInstance();
     private FXMLLoader mLLoader;
 
     @Override
