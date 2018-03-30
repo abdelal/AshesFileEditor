@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="921.0" prefWidth="1339.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AshesEditor.views.mainboard.MainboardPresenter">
+    <children>
+      <JFXButton fx:id="saveButton" buttonType="RAISED" layoutX="1020.0" layoutY="32.0" onAction="#Save" prefHeight="82.0" prefWidth="149.0" ripplerFill="#ab2020" style="-fx-background-color: #fd2d;" text="Save" />
+      <TextField fx:id="gamePathtv" layoutX="501.0" layoutY="35.0" onAction="#GamePathSetter2" prefHeight="25.0" prefWidth="491.0" />
+      <Label layoutX="420.0" layoutY="29.0" prefHeight="36.0" prefWidth="88.0" text="GamePath :-" />
+      <JFXButton fx:id="loadButton" buttonType="RAISED" layoutX="1188.0" layoutY="32.0" onAction="#load" prefHeight="82.0" prefWidth="149.0" ripplerFill="#ab2020" style="-fx-background-color: #ff3121;" text="Load" />
+        <MenuBar layoutX="233.0" layoutY="2.0" maxHeight="29.0" maxWidth="1186.0" minHeight="29.0" minWidth="1186.0" prefHeight="29.0" prefWidth="1186.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Open..." />
+                        <MenuItem mnemonicParsing="false" text="Save..." />
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Settings">
+                    <items>
+                        <MenuItem fx:id="gamePath" mnemonicParsing="false" onAction="#GamePathSetter" text="GameDir" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <JFXTabPane layoutY="117.0" prefHeight="804.0" prefWidth="1339.0">
+            <tabs>
+                <Tab text="Units">
+                    <content>
+                        <AnchorPane fx:id="unittab" minHeight="0.0" minWidth="0.0" prefHeight="742.0" prefWidth="1329.0" />
+                    </content>
+                </Tab>
+                <Tab text="Buildings">
+                    <content>
+                        <AnchorPane fx:id="buildingstab" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1181.0" />
+                    </content>
+                </Tab>
+                <Tab text="Resources">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1181.0" />
+                    </content>
+                </Tab>
+                <Tab text="Untitled Tab">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1181.0" />
+                    </content>
+                </Tab>
+            </tabs>
+        </JFXTabPane>
+      <Label layoutX="413.0" layoutY="73.0" prefHeight="36.0" prefWidth="88.0" text="Save Dir :-" />
+      <TextField fx:id="saveDir" layoutX="501.0" layoutY="78.0" onAction="#SavePath" prefHeight="25.0" prefWidth="491.0" />
+    </children>
+</AnchorPane>

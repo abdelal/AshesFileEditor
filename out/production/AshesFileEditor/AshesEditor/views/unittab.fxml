@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1270.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AshesEditor.views.unittab.UnittabPresenter">
+   <children>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1142.0">
+                     <children>
+                        <AnchorPane layoutY="1.0" prefHeight="655.0" prefWidth="196.0">
+                           <children>
+                              <JFXListView fx:id="unitslist" layoutX="-4.0" layoutY="38.0" prefHeight="708.0" prefWidth="317.0" />
+                              <JFXCheckBox layoutY="10.0" prefHeight="17.0" prefWidth="68.0" text="PHC" />
+                              <JFXCheckBox layoutX="74.0" layoutY="10.0" text="OtherFaction" />
+                           </children>
+                        </AnchorPane>
+                        <JFXTabPane layoutX="313.0" layoutY="40.0" prefHeight="695.0" prefWidth="959.0">
+                           <tabs>
+                              <Tab text="Details">
+                                <content>
+                                  <AnchorPane fx:id="details" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="957.0" />
+                                </content>
+                              </Tab>
+                           </tabs>
+                        </JFXTabPane>
+                     </children></AnchorPane>
+
+
+   </children>
+</AnchorPane>
