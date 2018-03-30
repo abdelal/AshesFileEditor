@@ -6,8 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1bd2ec-db6b-4a4b-90af-f68a19907202" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" />
+    <list default="true" id="9d1bd2ec-db6b-4a4b-90af-f68a19907202" name="Default" comment="faster search , changed the file the icons are loaded from">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AshesFileEditor_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo List.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/utils/ParserBackup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -167,15 +188,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="unitdetails.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/unitdetails.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="MainboardPresenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitListViewCell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -183,106 +212,11 @@
       <file leaf-file-name="UnitdetailsPresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3375">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="68" />
+            <state relative-caret-position="216">
+              <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
               <folding>
-                <element signature="e#3025#3114#0" expanded="false" />
-                <element signature="e#3158#3251#0" expanded="false" />
-                <element signature="e#3295#3390#0" expanded="false" />
-                <element signature="e#3436#3523#0" expanded="false" />
-                <element signature="e#3568#3658#0" expanded="false" />
-                <element signature="e#3706#3799#0" expanded="false" />
-                <element signature="e#3844#3953#0" expanded="false" />
-                <element signature="e#3997#4098#0" expanded="false" />
-                <element signature="e#4143#4233#0" expanded="false" />
-                <element signature="e#4276#4364#0" expanded="false" />
-                <element signature="e#4408#4497#0" expanded="false" />
-                <element signature="e#4542#4647#0" expanded="false" />
-                <element signature="e#4691#4787#0" expanded="false" />
-                <element signature="e#4832#4932#0" expanded="false" />
-                <element signature="e#4980#5083#0" expanded="false" />
-                <element signature="e#5128#5231#0" expanded="false" />
-                <element signature="e#5410#5499#0" expanded="false" />
-                <element signature="e#5541#5636#0" expanded="false" />
-                <element signature="e#5678#5764#0" expanded="false" />
-                <element signature="e#5811#5901#0" expanded="false" />
-                <element signature="e#5946#6035#0" expanded="false" />
-                <element signature="e#6079#6164#0" expanded="false" />
-                <element signature="e#6208#6296#0" expanded="false" />
-                <element signature="e#6340#6435#0" expanded="false" />
-                <element signature="e#6481#6588#0" expanded="false" />
-                <element signature="e#6631#6763#0" expanded="false" />
-                <element signature="e#6808#6925#0" expanded="false" />
-                <element signature="e#6974#7085#0" expanded="false" />
-                <element signature="e#7134#7235#0" expanded="false" />
-                <element signature="e#7285#7417#0" expanded="false" />
-                <element signature="e#7463#7570#0" expanded="false" />
-                <element signature="e#7616#7723#0" expanded="false" />
-                <element signature="e#7776#7886#0" expanded="false" />
-                <element signature="e#7937#8035#0" expanded="false" />
-                <element signature="e#8082#8172#0" expanded="false" />
-                <element signature="e#8221#8318#0" expanded="false" />
-                <element signature="e#8368#8468#0" expanded="false" />
+                <element signature="e#2711#9677#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buildtab.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#geticn#0;class#Parser#0" expanded="false" />
-                <element signature="method#geticn#1;class#Parser#0" expanded="false" />
-                <element signature="method#writetoFile#0;class#Parser#0" expanded="false" />
-                <element signature="method#geticn1#0;class#Parser#0" expanded="false" />
-                <element signature="method#getbufferedImage#0;class#Parser#0" expanded="false" />
-                <element signature="method#ReadUnits#0;class#Parser#0" expanded="false" />
-                <element signature="method#ReadUnitsText#0;class#Parser#0" expanded="false" />
-                <element signature="method#ReadUnitstoMap#0;class#Parser#0" expanded="false" />
-                <element signature="method#GamePathSetter#0;class#Parser#0" expanded="false" />
-                <element signature="method#GamePathSetter#1;class#Parser#0" expanded="false" />
-                <element signature="method#PrintFile#0;class#Parser#0" expanded="false" />
-                <element signature="method#SetGamePath#0;class#Parser#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildingListViewCell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainboardPresenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -290,23 +224,77 @@
       <file leaf-file-name="UnittabPresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="-216">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
               <folding>
-                <element signature="method#SetListners#0;class#UnittabPresenter#0" expanded="false" />
-                <element signature="method#searchwithenter#0;class#UnittabPresenter#0" expanded="false" />
-                <element signature="method#GetUnits#0;class#UnittabPresenter#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#writetoFile#0;class#Parser#0" />
+                <element signature="method#geticn1#0;class#Parser#0" />
+                <element signature="method#getbufferedImage#0;class#Parser#0" />
+                <element signature="method#ReadUnits#0;class#Parser#0" />
+                <element signature="method#ReadUnitsText#0;class#Parser#0" />
+                <element signature="method#ReadBuildings#0;class#Parser#0" />
+                <element signature="method#ReadUnitstoMap#0;class#Parser#0" />
+                <element signature="method#GamePathSetter#0;class#Parser#0" />
+                <element signature="method#GamePathSetter#1;class#Parser#0" />
+                <element signature="method#PrintFile#0;class#Parser#0" />
+                <element signature="method#SetGamePath#0;class#Parser#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildtabView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java">
+      <file leaf-file-name="ToDo List.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToDo List.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildtabPresenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildtab.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="115" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="BuildingListViewCell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -330,10 +318,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>parser.getun</find>
-      <find>parser.getu</find>
-      <find>parser.get</find>
-      <find>parser.ge</find>
       <find>parser.g</find>
       <find>parser.</find>
       <find>parser.r</find>
@@ -360,6 +344,10 @@
       <find>bind</find>
       <find>icon</find>
       <find>int</find>
+      <find>Thread</find>
+      <find>DDSPATHOther</find>
+      <find>System.out</find>
+      <find>system</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -437,6 +425,10 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installLombok" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testClasses" />
@@ -489,6 +481,10 @@
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="verifyLombok" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
@@ -577,8 +573,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2992977825232" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2140143399" />
+        <entry key="$PROJECT_DIR$" value="4515021041519" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1229122931" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="4179503194" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -595,6 +593,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.appsatori/gradle-fatjar-plugin/0.3/b0120dae66422386908285b17314da8b122c04c7/gradle-fatjar-plugin-0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.appsatori/gradle-fatjar-plugin/0.3/fce9018d5717b51333bc0f9e57591a1bd0fde8d9/gradle-fatjar-plugin-0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.franzbecker/gradle-lombok/1.11/43e18d7d02ebbb75b645ac2f047c251baf41dc5e/gradle-lombok-1.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.franzbecker/gradle-lombok/1.11/8ea9127e3c130d03cd6dee6261579fc16e59596e/gradle-lombok-1.11.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -742,16 +742,15 @@
         </entry>
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/tunitabview/mainboard/mainboard.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/unittab/unittab.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/mainboard/MainboardPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/mainboard/mainboard.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/unittab/unittab.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DDSReader.java" />
@@ -766,7 +765,6 @@
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser1.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/csv2json.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/MultiMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/unitdetails.fxml" />
@@ -776,30 +774,34 @@
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/HasName.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/unittab.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/views/unitlistcell.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/DS/MultiMapCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/GeneralFunctions.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenteBackUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/ParserBackup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/OutPutWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/unitcell/UnitListViewCell.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/BuildingTab/unittab/unittab.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/BuildingTab/unittab/BuildtabPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/BuildingTab/buildtab.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java" />
         <option value="$PROJECT_DIR$/src/main/resources/views/buildinglistcell.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/BuildingTab/BuildtabPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java" />
+        <option value="$PROJECT_DIR$/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml" />
+        <option value="$PROJECT_DIR$/ToDo List.txt" />
         <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java" />
       </list>
     </option>
   </component>
@@ -809,9 +811,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-373" />
+    <option name="y" value="-18" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -860,32 +862,151 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="buildtab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="listCells" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="mainboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="unitdetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="AshesEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="unittab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AshesFileEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AshesFileEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/AshesEditor" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="F:/IoT/SampleBPjsProject/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15135929" />
     <property name="project.structure.side.proportion" value="0.3067591" />
@@ -896,24 +1017,13 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Javas\AshesFileEditor" />
-      <recent name="E:\Javas\AshesFileEditor\src" />
-      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\utils\DDSutils" />
-      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\utils" />
-      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\tunitabview" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="AshesEditor.views" />
       <recent name="" />
       <recent name="AshesEditor" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="AshesEditor.utils" />
-      <recent name="AshesEditor.views.unittab" />
-      <recent name="views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Javas\AshesFileEditor\src\main\resources\views" />
@@ -921,6 +1031,18 @@
       <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\views\unitdetails" />
       <recent name="E:\Javas\AshesFileEditor\src\main\resources\AshesEditor\views" />
       <recent name="E:\Javas\AshesFileEditor\src\main\resources\AshesEditor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AshesEditor.utils" />
+      <recent name="AshesEditor.views.unittab" />
+      <recent name="views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Javas\AshesFileEditor" />
+      <recent name="E:\Javas\AshesFileEditor\src" />
+      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\utils\DDSutils" />
+      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\utils" />
+      <recent name="E:\Javas\AshesFileEditor\src\main\java\AshesEditor\tunitabview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -936,6 +1058,39 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.AshesFileEditor [run]">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="AshesFileEditor [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1036,38 +1191,6 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration default="false" name="Unnamed" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/AshesFileEditor_jar/AshesFileEditor.jar" />
-      <option name="WORKING_DIRECTORY" value="E:\Javas\AshesFileEditor" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
-      <envs />
-      <method>
-        <option name="BuildArtifacts" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1091,17 +1214,7 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -1111,30 +1224,22 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/AshesFileEditor_jar/AshesFileEditor.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\Javas\AshesFileEditor" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+      <method>
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -1147,15 +1252,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -1238,39 +1340,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
@@ -1428,11 +1497,24 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
@@ -1460,25 +1542,34 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [run]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [assemble]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [clean]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [installApp]" />
-      <item index="5" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [fatJar]" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="Gradle.AshesFileEditor [run]" />
+      <item itemvalue="Gradle.AshesFileEditor [assemble]" />
+      <item itemvalue="Gradle.AshesFileEditor [clean]" />
+      <item itemvalue="Gradle.AshesFileEditor [installApp]" />
+      <item itemvalue="Gradle.AshesFileEditor [fatJar]" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [fatJar]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [installApp]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [assemble]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.AshesFileEditor [clean]" />
+      <list>
+        <item itemvalue="Gradle.AshesFileEditor [fatJar]" />
+        <item itemvalue="Gradle.AshesFileEditor [installApp]" />
+        <item itemvalue="Gradle.AshesFileEditor [assemble]" />
+        <item itemvalue="Gradle.AshesFileEditor [clean]" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1512,12 +1603,34 @@
       <workItem from="1496930959409" duration="6078000" />
       <workItem from="1496944284534" duration="1625000" />
       <workItem from="1498117692884" duration="599000" />
-      <workItem from="1506945615917" duration="154000" />
+      <workItem from="1506945615917" duration="1397000" />
+      <workItem from="1507022670642" duration="602000" />
+      <workItem from="1512762043270" duration="632000" />
+      <workItem from="1512810817192" duration="629000" />
+      <workItem from="1513010521254" duration="622000" />
+      <workItem from="1513014357136" duration="609000" />
+      <workItem from="1514398732675" duration="822000" />
+      <workItem from="1514566116964" duration="66000" />
+      <workItem from="1514566212440" duration="242000" />
+      <workItem from="1514566479245" duration="427000" />
+      <workItem from="1514566930590" duration="160000" />
+      <workItem from="1514567108746" duration="1975000" />
+      <workItem from="1514795583039" duration="968000" />
+      <workItem from="1518979026260" duration="728000" />
+      <workItem from="1519677191854" duration="633000" />
+      <workItem from="1519819974751" duration="1274000" />
+      <workItem from="1520853186402" duration="4455000" />
+      <workItem from="1521028453253" duration="1220000" />
+      <workItem from="1521278995565" duration="1147000" />
+      <workItem from="1521454680236" duration="21000" />
+      <workItem from="1521484868857" duration="259000" />
+      <workItem from="1522393125729" duration="270000" />
+      <workItem from="1522394134297" duration="3121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180116000" />
+    <option name="totallyTimeSpent" value="202241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1529,41 +1642,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.4914712" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17056856" sideWeight="0.6204691" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18506132" sideWeight="0.3795309" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.47867805" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.49415204" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13006397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13006397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25746268" sideWeight="0.50584793" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27759197" sideWeight="0.43816632" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12686567" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30992195" sideWeight="0.42110875" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07023411" sideWeight="0.48081023" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Tool Output" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.6204691" side_tool="true" weight="0.17056856" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.097206704" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.13006397" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43816632" weight="0.27759197" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4914712" weight="0.32887402" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.42110875" weight="0.3094972" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Run" order="2" sideWeight="0.3795309" visible="true" weight="0.18435754" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.47867805" weight="0.32887402" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49415204" visible="true" weight="0.20149253" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48081023" weight="0.3094972" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.13006397" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" sideWeight="0.50584793" side_tool="true" weight="0.25746268" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" sideWeight="0.4978678" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.12686567" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="12" />
+      <window_info anchor="right" id="Properties" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Nl-Palette" order="5" />
+      <window_info anchor="bottom" id="Profiler" order="16" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1572,25 +1695,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="faster search , changed the file the icons are loaded from" />
+    <option name="LAST_COMMIT_MESSAGE" value="faster search , changed the file the icons are loaded from" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java</url>
-          <line>164</line>
+          <line>170</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="59" />
+      <option name="time" value="60" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1624,413 +1744,323 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icon.png" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airhacks/afterburner.fx/1.7.0/3256658da1f9813f368a7780ac45e59729d93a95/afterburner.fx-1.7.0-sources.jar!/com/airhacks/afterburner/views/FXMLView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2547" column="0" lean-forward="false" selection-start-line="2547" selection-start-column="0" selection-end-line="2547" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/unitlistcell.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/unitcell/unitlistcell.fxml" />
-    <entry file="file://$PROJECT_DIR$/AshesFileEditor.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mainboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/unitdetails.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/unittab.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/unittab.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/AshesEditor/unittab.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/AshesEditor/views/unittab.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/value/ChangeListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
-          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/csv2json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/listitem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/DS/MultiMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml.backup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/mainboard.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/unitlistcell.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1496738737003" expanded="true" signature="619:652" ph="..." />
-          </folding>
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenteBackUp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/unittab.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="560" column="5" lean-forward="true" selection-start-line="560" selection-start-column="5" selection-end-line="560" selection-end-column="5" />
-          <folding>
-            <element signature="method#fileLine#0;class#Unit#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/OutPutWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="105" column="67" lean-forward="false" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/DS/MultiMapCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/GeneralFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/BuildingTab/unittab/UnittabPresenter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/ParserBackup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/HasName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/buildinglistcell.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/unitdetails.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="105" column="67" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabView.java">
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/GeneralFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="method#fileLine#0;class#Unit#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/unittab.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="method#SetListners#0;class#UnittabPresenter#0" expanded="false" />
-            <element signature="method#searchwithenter#0;class#UnittabPresenter#0" expanded="false" />
-            <element signature="method#GetUnits#0;class#UnittabPresenter#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" selection-start-line="27" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="56" />
-          <folding />
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="68" />
-          <folding>
-            <element signature="e#3025#3114#0" expanded="false" />
-            <element signature="e#3158#3251#0" expanded="false" />
-            <element signature="e#3295#3390#0" expanded="false" />
-            <element signature="e#3436#3523#0" expanded="false" />
-            <element signature="e#3568#3658#0" expanded="false" />
-            <element signature="e#3706#3799#0" expanded="false" />
-            <element signature="e#3844#3953#0" expanded="false" />
-            <element signature="e#3997#4098#0" expanded="false" />
-            <element signature="e#4143#4233#0" expanded="false" />
-            <element signature="e#4276#4364#0" expanded="false" />
-            <element signature="e#4408#4497#0" expanded="false" />
-            <element signature="e#4542#4647#0" expanded="false" />
-            <element signature="e#4691#4787#0" expanded="false" />
-            <element signature="e#4832#4932#0" expanded="false" />
-            <element signature="e#4980#5083#0" expanded="false" />
-            <element signature="e#5128#5231#0" expanded="false" />
-            <element signature="e#5410#5499#0" expanded="false" />
-            <element signature="e#5541#5636#0" expanded="false" />
-            <element signature="e#5678#5764#0" expanded="false" />
-            <element signature="e#5811#5901#0" expanded="false" />
-            <element signature="e#5946#6035#0" expanded="false" />
-            <element signature="e#6079#6164#0" expanded="false" />
-            <element signature="e#6208#6296#0" expanded="false" />
-            <element signature="e#6340#6435#0" expanded="false" />
-            <element signature="e#6481#6588#0" expanded="false" />
-            <element signature="e#6631#6763#0" expanded="false" />
-            <element signature="e#6808#6925#0" expanded="false" />
-            <element signature="e#6974#7085#0" expanded="false" />
-            <element signature="e#7134#7235#0" expanded="false" />
-            <element signature="e#7285#7417#0" expanded="false" />
-            <element signature="e#7463#7570#0" expanded="false" />
-            <element signature="e#7616#7723#0" expanded="false" />
-            <element signature="e#7776#7886#0" expanded="false" />
-            <element signature="e#7937#8035#0" expanded="false" />
-            <element signature="e#8082#8172#0" expanded="false" />
-            <element signature="e#8221#8318#0" expanded="false" />
-            <element signature="e#8368#8468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-          </folding>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/TextWithID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
-          <folding />
+        <state relative-caret-position="351">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml.backup">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#geticn#0;class#Parser#0" expanded="false" />
-            <element signature="method#geticn#1;class#Parser#0" expanded="false" />
-            <element signature="method#writetoFile#0;class#Parser#0" expanded="false" />
-            <element signature="method#geticn1#0;class#Parser#0" expanded="false" />
-            <element signature="method#getbufferedImage#0;class#Parser#0" expanded="false" />
-            <element signature="method#ReadUnits#0;class#Parser#0" expanded="false" />
-            <element signature="method#ReadUnitsText#0;class#Parser#0" expanded="false" />
-            <element signature="method#ReadUnitstoMap#0;class#Parser#0" expanded="false" />
-            <element signature="method#GamePathSetter#0;class#Parser#0" expanded="false" />
-            <element signature="method#GamePathSetter#1;class#Parser#0" expanded="false" />
-            <element signature="method#PrintFile#0;class#Parser#0" expanded="false" />
-            <element signature="method#SetGamePath#0;class#Parser#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/light/LightPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/HasName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/mainboard.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" column="103" lean-forward="true" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/ParserBackup.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/OutPutWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/csv2json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/Objects/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/DashboardPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/dashboard.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/dashboard/DashboardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo List.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/BuildingListViewCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/buildtab.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unittab/UnittabPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/UnitdetailsPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+          <folding>
+            <element signature="e#2711#9677#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/mainboard/MainboardPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/unitdetails/unitdetails.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/listCells/UnitListViewCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/views/buildtab/BuildtabPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AshesEditor/utils/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writetoFile#0;class#Parser#0" />
+            <element signature="method#geticn1#0;class#Parser#0" />
+            <element signature="method#getbufferedImage#0;class#Parser#0" />
+            <element signature="method#ReadUnits#0;class#Parser#0" />
+            <element signature="method#ReadUnitsText#0;class#Parser#0" />
+            <element signature="method#ReadBuildings#0;class#Parser#0" />
+            <element signature="method#ReadUnitstoMap#0;class#Parser#0" />
+            <element signature="method#GamePathSetter#0;class#Parser#0" />
+            <element signature="method#GamePathSetter#1;class#Parser#0" />
+            <element signature="method#PrintFile#0;class#Parser#0" />
+            <element signature="method#SetGamePath#0;class#Parser#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2059,9 +2089,9 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
-              <type id="jpa-descriptors" />
               <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
               <type id="library" />
             </show-content>
           </artifact-editor>
